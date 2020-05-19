@@ -1,0 +1,56 @@
+.text-center{
+  
+  background-image: url(img/bg3.jpg);
+  background-size: cover;
+  }
+.fa {
+  
+  padding: 30px;
+  font-size: 50px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+p{
+  padding-left: 50px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#para1 {
+  border-color: teal;
+  border-width: 4em;
+  text-align:center
+  
+}
+#skills {
+  background-image: url(img/skill.jpg);
+  
+
+}

@@ -1,10 +1,138 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-	<meta charset = "UTF-8">
-	<title>My Website</title>
+  <title>Parth Agrawal</title>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="custom-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<h1><u>Parth Agrawal</u></h1>
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type = "button" data-toggle = "collapse" data-target ="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse-navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active" >
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#AboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact Details</a>
+            </li>
+            
+          </ul>
+      </div>
+    </div>
+  </nav>
+  		
+ 
+    
+  <div class="container-fluid">
+    <img src="img/parth.jpeg" class="img-responsive rounded-circle float-left" alt="Responsive image" height="255">
+
+    <div class="jumbotron text-center" >
+      
+      <h1 style="color: whitesmoke; margin-right: 50px;" ><u>Parth Agrawal</u></h1>
+      <br>
+      <h2 style="color: whitesmoke;">B.E. Computer Science</h2>
+    </div>
+  </div>
+  <br>
+
+  <a name="AboutMe"></a>
+  <span id="AboutMe" class="d-block p-2 bg-dark text-white" style="font-family:Georgia, 'Times New Roman', Times, serif"><h3>About Me</h3></span>
+  <br><br>  
+  <div class="container-fluid bg-2 background background-danger" id="para1">
+    <div class="border boder-danger p-5"><h5>Hi ! I am Parth, a 2nd year student at BITS Pilani KK Birla Goa Campus, pursuing B.E. in Computer Science. I am keenly interested in the discipline. Apart from academics, I am also interested in the field of Data Science and BlockChain technology
+      and keep honing these skills. I am also the Waves 2020 Coordinator at Department of Arts n Deco. I also participated actively in Abhivyakti Club till last semester. 
+      In my leisure time, I write poetry and shayaris, sketch a bit and binge movies.
+      
+    </h5> 
+      <br><br>
+      <i class="fa fa-file" aria-hidden="true" style="color:rgb(76, 76, 209)"></i>
+      <a href="CV.pdf" target="_blank"><h5>Curriculum Vitae</h5></a>
+
+    </div>
+  </div>
+
+<br>
+<br>
+  <a name="Project"></a>
+  <span id="Project" class="d-block p-2 bg-dark text-white" style="font-family:Georgia, 'Times New Roman', Times, serif"><h3>Projects  </h3>
+  </span>
+    <br><br>  
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Machine Learning</h3>
+          <img src="img/proj1.jpg" class="image">
+          <div class="overlay" id="proj1">
+            <div class="text">Explore ML Beginner's Track, Google AI</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <h3>Blockchain</h3>
+          <img src="img/proj2.jpg" class="image" width="90%">
+          <div class="overlay">
+            <div class="text">ChainVoter : Selected in Microsoft CodeFunDo++ 2019</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <h3>FinTech</h3>        
+          <img src="img/proj3.jpg" class="image" width="90%">
+          <div class="overlay">
+            <div class="text">TIP Hawkeye</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <a name="Skills"></a>
+<span id="Skills" class="d-block p-2 bg-dark text-white" style="font-family:Georgia, 'Times New Roman', Times, serif"><h3>Skills  </h3>
+</span>
+  <br><br>  
+  <div class="container-fluid" id="skills">
+    <ul style="list-style: none;">
+      <br><br>
+      <li><b>Languages</b> - C++, C, Python, Java</li>
+      <br>
+      <li><b>Technical</b> - BlockChain, Machine Learning, Data Science, Reinforcement Learning</li>
+      <br>
+      <li><b>Academic</b> - C Programming, Logic in CS, OOP, DSA</li>
+      <br>
+      
+    </ul>
+  </div>
+<br><br><br>
+<a name="Contact"></a>
+<span id="Contact" class="d-block p-2 bg-dark text-white" style="font-family:Georgia, 'Times New Roman', Times, serif"><h3>Contact Details  </h3>
+</span>
+    
+<!--Connect-->
+  <div class="container-fluid bg-dark"  style="text-align: center;">
+    <a href="https://www.facebook.com/madhav.ag.1024/" class="fa fa-facebook-square fa-4x fa-fw" aria-hidden="true"></a>
+    <a href="#" class="fa fa-google fa-4x fa-fw"></a>
+    <a href="https://www.instagram.com/parth.1024/" class="fa fa-instagram fa-4x fa-fw"></a>
+    <a href="https://www.linkedin.com/in/ag-parth1024/" class="fa fa-linkedin fa-4x fa-fw"></a>
+    <a href="https://github.com/PARTH4096" class="fa fa-github fa-4x fa-fw"></a>
+    <a href="#"" class="fa fa-phone fa-4x fa-fw"></a>
+  </div>  
+  
 </body>
 </html>
